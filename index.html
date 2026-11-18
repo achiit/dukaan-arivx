@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARIVX | Premium Oversized Streetwear from ₹399 | All-India Delivery</title>
+<meta name="description" content="ARIVX is an independent Indian streetwear brand. Oversized T-shirts and graphic tees from ₹399. All-India shipping, online payment and Cash on Delivery. Order on WhatsApp.">
+<meta name="theme-color" content="#141414">
+<meta property="og:title" content="ARIVX | Wear Your Identity">
+<meta property="og:description" content="Premium oversized streetwear for everyone. Dark luxury aesthetics, original graphics, from ₹399.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23141414'/%3E%3Cpath d='M32 14 L46 50 H39 L32 31 L25 50 H18 Z' fill='%23EDEAE4'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#141414;
+  --paper:#EDEAE4;
+  --bone:#DAD6CC;
+  --ash:#7D7A74;
+  --ember:#B3261E;
+  --serif:'DM Serif Display',Georgia,serif;
+  --sans:'DM Sans',system-ui,sans-serif;
+  --gap:clamp(64px,10vw,120px);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img,svg{display:block;max-width:100%}
+a{color:inherit}
+.wrap{width:min(1180px,100% - 40px);margin-inline:auto}
+h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.05;letter-spacing:-.01em}
+h2{font-size:clamp(34px,5vw,58px)}
+h3{font-size:24px}
+.eyebrow{font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:700;color:var(--ember);display:flex;align-items:center;gap:12px;margin-bottom:18px}
+.eyebrow::before{content:"";width:34px;height:2px;background:currentColor}
+section{padding-block:var(--gap)}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 24px;border:2px solid var(--ink);font:700 15px var(--sans);text-decoration:none;cursor:pointer;transition:transform .15s,background .15s,color .15s;min-height:48px}
+.btn:hover{transform:translateY(-2px)}
+.btn-fill{background:var(--ink);color:var(--paper)}
+.btn-fill:hover{background:var(--ember);border-color:var(--ember)}
+.btn-line{background:transparent;color:var(--ink)}
+.btn-line:hover{background:var(--ink);color:var(--paper)}
+.btn svg{width:18px;height:18px;flex:none}
+.btn-sm{padding:10px 16px;font-size:14px;min-height:42px}
+.on-dark .btn-fill{background:var(--paper);color:var(--ink);border-color:var(--paper)}
+.on-dark .btn-fill:hover{background:var(--ember);color:var(--paper);border-color:var(--ember)}
+.on-dark .btn-line{color:var(--paper);border-color:var(--paper)}
+.on-dark .btn-line:hover{background:var(--paper);color:var(--ink)}
+
+/* header */
+header.top{position:sticky;top:0;z-index:50;background:rgba(237,234,228,.96);border-bottom:1px solid var(--bone)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;height:68px}
+.logo{font-family:var(--serif);font-size:30px;text-decoration:none;letter-spacing:.04em}
+.logo span{color:var(--ember)}
+nav.main{display:flex;gap:28px}
+nav.main a{text-decoration:none;font-weight:500;font-size:15px;position:relative}
+nav.main a::after{content:"";position:absolute;left:0;bottom:-4px;width:0;height:2px;background:var(--ember);transition:width .2s}
+nav.main a:hover::after{width:100%}
+.hdr-cta{display:flex;gap:8px;align-items:center}
+.burger{display:none;background:none;border:2px solid var(--ink);width:44px;height:44px;cursor:pointer;flex-direction:column;align-items:center;justify-content:center;gap:5px}
+.burger i{display:block;width:20px;height:2px;background:var(--ink)}
+
+/* hero */
+.hero{padding-block:clamp(40px,7vw,90px) var(--gap);position:relative}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(24px,5vw,70px);align-items:center}
+.hero h1{font-size:clamp(40px,6.4vw,84px);margin-bottom:24px}
+.hero h1 em{font-style:italic;color:var(--ember)}
+.hero p.lead{font-size:19px;max-width:520px;margin-bottom:12px}
+.proof{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--ash);font-weight:700;margin-bottom:30px}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px}
+.hero-visual{position:relative;background:var(--ink);padding:clamp(20px,4vw,48px);aspect-ratio:4/5;display:flex;align-items:center;justify-content:center;transform:rotate(1.5deg)}
+.hero-visual .tee{width:100%}
+.hero-visual .tag{position:absolute;left:-14px;bottom:28px;background:var(--ember);color:var(--paper);font-weight:700;font-size:13px;letter-spacing:.1em;padding:10px 16px;transform:rotate(-4deg)}
+.tape{width:100%;height:34px;color:var(--ink)}
+.tape-band{margin-top:clamp(40px,6vw,70px)}
+
+/* trust */
+.trust{background:var(--ink);color:var(--paper);padding-block:56px}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.trust-item{padding:6px 24px;border-left:1px solid #3a3a3a}
+.trust-item:first-child{border-left:0;padding-left:0}
+.trust-item b{display:block;font-family:var(--serif);font-weight:400;font-size:clamp(38px,5vw,60px);line-height:1}
+.trust-item span{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#a9a59d}
+
+/* products */
+.sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:48px}
+.sec-head p{max-width:420px;color:#4a4843}
+.prod-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:20px}
+.card{background:var(--bone);padding:22px;display:flex;flex-direction:column;gap:14px;border:1px solid #c9c4b8}
+.card:nth-child(1){grid-column:span 3;grid-row:span 1}
+.card:nth-child(2){grid-column:span 3}
+.card:nth-child(3){grid-column:span 2}
+.card:nth-child(4){grid-column:span 2}
+.card:nth-child(5){grid-column:span 2;background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.card .art{background:var(--paper);padding:14px;display:flex;justify-content:center}
+.card:nth-child(5) .art{background:#222}
+.card .art svg{width:100%;max-width:230px;height:auto}
+.card .meta{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.card .price{font-family:var(--serif);font-size:28px;color:var(--ember)}
+.card:nth-child(5) .price{color:#e2554c}
+.card p{font-size:15px;color:#46433e;flex:1}
+.card:nth-child(5) p{color:#bdb9b0}
+.card:nth-child(5) .btn-line{color:var(--paper);border-color:var(--paper)}
+.card:nth-child(5) .btn-line:hover{background:var(--paper);color:var(--ink)}
+.perks{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.perks span{border:1px solid var(--ink);padding:8px 16px;font-size:14px;font-weight:500}
+
+/* breaker */
+.breaker{background:var(--ink);color:var(--paper);padding-block:0;overflow:hidden;position:relative}
+.breaker .big{font-family:var(--serif);font-size:clamp(70px,17vw,230px);line-height:.9;white-space:nowrap;padding:60px 0 20px;margin-left:-2vw;color:transparent;-webkit-text-stroke:2px #4a4a4a}
+.breaker .big b{color:var(--paper);-webkit-text-stroke:0;font-weight:400}
+.breaker .row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding-bottom:56px;align-items:center}
+.breaker p{max-width:520px;color:#bdb9b0}
+.breaker .tape{color:var(--ash);height:30px}
+
+/* about */
+.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(28px,6vw,90px);align-items:start}
+.avatar{width:150px;height:150px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-family:var(--serif);font-size:54px;margin-bottom:22px;border:6px solid var(--bone);outline:2px solid var(--ember)}
+.about-side h3{font-size:30px}
+.about-side small{color:var(--ash);letter-spacing:.1em;text-transform:uppercase;font-size:12px;font-weight:700}
+.about-copy p{margin-bottom:18px;max-width:640px;font-size:18px}
+.diff{list-style:none;margin-top:32px;display:grid;gap:12px}
+.diff li{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-top:1px solid var(--bone);font-weight:500}
+.diff li::before{content:"";flex:none;width:12px;height:12px;margin-top:8px;background:var(--ember);clip-path:polygon(0 0,100% 50%,0 100%)}
+
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:150px;gap:14px}
+.g{position:relative;overflow:hidden;background:var(--ink);display:flex;align-items:center;justify-content:center}
+.g img{width:100%;height:100%;object-fit:cover;filter:grayscale(.85) contrast(1.05)}
+.g svg{width:80%;max-height:90%}
+.g1{grid-column:span 3;grid-row:span 3}
+.g2{grid-column:span 3;grid-row:span 2}
+.g3{grid-column:span 2;grid-row:span 2}
+.g4{grid-column:span 1;grid-row:span 2}
+.g5{grid-column:span 2;grid-row:span 2}
+.g6{grid-column:span 2;grid-row:span 1}
+.g7{grid-column:span 2;grid-row:span 2}
+.g8{grid-column:span 4;grid-row:span 1}
+.g .cap{position:absolute;left:10px;bottom:10px;background:var(--paper);color:var(--ink);font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 8px}
+.light{background:var(--paper)}
+.g.paper{background:var(--bone)}
+
+/* reviews */
+.reviews{background:var(--bone)}
+.rev-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:20px}
+.rev{background:var(--paper);padding:28px;border:1px solid #c4bfb3}
+.rev:first-child{background:var(--ink);color:var(--paper)}
+.stars{display:flex;gap:4px;margin-bottom:14px}
+.stars svg{width:20px;height:20px;fill:none;stroke:var(--ember);stroke-width:1.6}
+.rev h3{font-size:24px;margin-bottom:10px}
+.rev p{font-size:15.5px;color:#46433e}
+.rev:first-child p{color:#bdb9b0}
+.rev .btn{margin-top:18px}
+
+/* pricing */
+.price-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,6vw,80px);align-items:start}
+.plist{list-style:none}
+.plist li{display:flex;align-items:baseline;gap:12px;padding:16px 0;border-bottom:1px solid var(--bone);font-size:18px}
+.plist li .dots{flex:1;border-bottom:2px dotted #a9a59d;transform:translateY(-4px)}
+.plist li b{font-family:var(--serif);font-weight:400;font-size:26px}
+.notes{background:var(--ink);color:var(--paper);padding:32px}
+.notes h3{margin-bottom:16px}
+.notes ul{list-style:none;display:grid;gap:12px;margin-bottom:24px}
+.notes li{padding-left:22px;position:relative;color:#d5d1c8;font-size:16px}
+.notes li::before{content:"";position:absolute;left:0;top:10px;width:10px;height:2px;background:var(--ember)}
+
+/* contact */
+.contact-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(24px,5vw,60px)}
+.map{width:100%;height:100%;min-height:380px;border:0;filter:grayscale(1) contrast(1.05)}
+.map-wrap{border:2px solid var(--ink);min-height:380px}
+.hours{width:100%;border-collapse:collapse;margin:18px 0 26px}
+.hours td{padding:10px 0;border-bottom:1px solid var(--bone)}
+.hours td:last-child{text-align:right;font-weight:700}
+.methods{display:grid;gap:10px}
+.methods .btn{justify-content:flex-start}
+.methods small{display:block;color:var(--ash);margin-top:8px;font-size:13px}
+
+/* footer */
+footer{background:var(--ink);color:var(--paper);padding:72px 0 120px}
+.foot-grid{display:grid;grid-template-columns:1.3fr .7fr 1fr;gap:40px;align-items:start}
+footer .logo{font-size:44px;display:inline-block;margin-bottom:10px}
+footer p{color:#a9a59d;max-width:340px}
+footer ul{list-style:none;display:grid;gap:8px}
+footer ul a{text-decoration:none;color:#d5d1c8}
+footer ul a:hover{color:var(--ember)}
+footer h4{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:#7d7a74;margin-bottom:14px}
+.big-wa{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--paper);color:var(--ink);padding:22px 26px;text-decoration:none;font-family:var(--serif);font-size:26px;transition:background .15s}
+.big-wa:hover{background:var(--ember);color:var(--paper)}
+.big-wa svg{width:28px;height:28px}
+.legal{margin-top:56px;padding-top:24px;border-top:1px solid #333;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:14px;color:#8a867e}
+.credit{text-transform:lowercase}
+
+/* sticky bottom bar */
+.sticky{display:none}
+
+/* responsive */
+@media (max-width:1080px){
+  nav.main{gap:18px}
+  .rev-grid{grid-template-columns:1fr 1fr}
+  .rev:first-child{grid-column:span 2}
+}
+@media (max-width:820px){
+  .hero-grid,.about-grid,.price-grid,.contact-grid,.foot-grid{grid-template-columns:1fr}
+  .hero-visual{max-width:440px;margin:20px auto 0;aspect-ratio:1/1.05}
+  .trust-grid{grid-template-columns:1fr 1fr;gap:28px 0}
+  .trust-item:nth-child(3){border-left:0;padding-left:0}
+  .prod-grid{grid-template-columns:1fr 1fr}
+  .card:nth-child(n){grid-column:span 1}
+  .card:nth-child(5){grid-column:span 2}
+  .gal{grid-template-columns:repeat(4,1fr);grid-auto-rows:120px}
+  .g1{grid-column:span 4;grid-row:span 3}
+  .g2{grid-column:span 2;grid-row:span 2}
+  .g3{grid-column:span 2;grid-row:span 2}
+  .g4{grid-column:span 2;grid-row:span 2}
+  .g5{grid-column:span 2;grid-row:span 2}
+  .g6{grid-column:span 2;grid-row:span 1}
+  .g7{grid-column:span 2;grid-row:span 2}
+  .g8{grid-column:span 4;grid-row:span 1}
+}
+@media (max-width:768px){
+  .burger{display:flex}
+  nav.main{position:absolute;top:68px;left:0;right:0;background:var(--paper);flex-direction:column;gap:0;border-bottom:2px solid var(--ink);display:none}
+  nav.main.open{display:flex}
+  nav.main a{padding:16px 20px;border-top:1px solid var(--bone);font-size:17px}
+  nav.main a::after{display:none}
+  .hdr-cta .btn-line{display:none}
+  .sticky{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:60;border-top:2px solid var(--ink)}
+  .sticky a{display:flex;align-items:center;justify-content:center;gap:10px;padding:16px;font-weight:700;text-decoration:none;font-size:16px}
+  .sticky .s-call{background:var(--paper);color:var(--ink)}
+  .sticky .s-wa{background:var(--ink);color:var(--paper)}
+  .sticky svg{width:20px;height:20px}
+}
+@media (max-width:520px){
+  body{font-size:16px}
+  .hdr-cta .btn{padding:8px 12px;font-size:13px;min-height:40px}
+  .logo{font-size:26px}
+  .prod-grid{grid-template-columns:1fr}
+  .card:nth-child(n){grid-column:span 1}
+  .trust-item{padding:6px 14px}
+  .rev-grid{grid-template-columns:1fr}
+  .rev:first-child{grid-column:span 1}
+  .gal{grid-template-columns:repeat(2,1fr);grid-auto-rows:130px}
+  .g1,.g8{grid-column:span 2}
+  .g2,.g3,.g4,.g5,.g6,.g7{grid-column:span 1}
+  .cta-row .btn{flex:1 1 100%}
+  .big-wa{font-size:21px}
+}
+</style>
+</head>
+<body>
+
+<!-- shared inline SVG defs: measuring-tape motif + icons -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="tape-motif" viewBox="0 0 600 34" preserveAspectRatio="none">
+      <rect x="0" y="0" width="600" height="34" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      <g stroke="currentColor" stroke-width="1.2">
+        <path d="M10 0v14M20 0v8M30 0v8M40 0v8M50 0v8M60 0v20M70 0v8M80 0v8M90 0v8M100 0v8M110 0v14M120 0v8M130 0v8M140 0v8M150 0v8M160 0v20M170 0v8M180 0v8M190 0v8M200 0v8M210 0v14M220 0v8M230 0v8M240 0v8M250 0v8M260 0v20M270 0v8M280 0v8M290 0v8M300 0v8M310 0v14M320 0v8M330 0v8M340 0v8M350 0v8M360 0v20M370 0v8M380 0v8M390 0v8M400 0v8M410 0v14M420 0v8M430 0v8M440 0v8M450 0v8M460 0v20M470 0v8M480 0v8M490 0v8M500 0v8M510 0v14M520 0v8M530 0v8M540 0v8M550 0v8M560 0v20M570 0v8M580 0v8M590 0v8"/>
+      </g>
+      <g fill="currentColor" font-family="DM Sans,sans-serif" font-size="9" font-weight="700">
+        <text x="57" y="31">10</text><text x="157" y="31">20</text><text x="257" y="31">30</text><text x="357" y="31">40</text><text x="457" y="31">50</text><text x="557" y="31">60</text>
+      </g>
+    </symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.23 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"/></symbol>
+    <symbol id="i-call" viewBox="0 0 24 24"><path fill="currentColor" d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2z"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"/></symbol>
+    <!-- oversized tee silhouette -->
+    <symbol id="tee-shape" viewBox="0 0 200 190"><path d="M72 10 L36 24 L6 60 L30 80 L46 66 L46 182 L154 182 L154 66 L170 80 L194 60 L164 24 L128 10 Q100 34 72 10Z"/></symbol>
+  </defs>
+</svg>
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="logo" href="#top" aria-label="ARIVX home">ARI<span>V</span>X</a>
+    <nav class="main" id="nav" aria-label="Main navigation">
+      <a href="#shop">Shop</a>
+      <a href="#about">Our Story</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hdr-cta">
+      <a class="btn btn-line btn-sm" href="tel:+919199637578"><svg><use href="#i-call"/></svg>Call</a>
+      <a class="btn btn-fill btn-sm" href="https://wa.me/919199637578?text=Hi%20ARIVX!%20I%20saw%20your%20website%20and%20want%20to%20know%20more%20about%20your%20T-shirts." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero" style="padding-top:clamp(40px,7vw,90px)">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow">Independent Indian Streetwear</div>
+        <h1>Oversized black-and-white streetwear with <em>original graphics</em>, priced from just ₹399.</h1>
+        <p class="lead">Wear Your Identity. ARIVX makes dark, minimal, oversized tees for everyone, and ships them anywhere in India.</p>
+        <p class="proof">New in 2026 · All-India delivery · Cash on Delivery available</p>
+        <div class="cta-row">
+          <a class="btn btn-fill" href="https://wa.me/919199637578?text=Hi%20ARIVX!%20I%20want%20to%20order%20a%20T-shirt.%20Please%20share%20the%20available%20designs%20and%20sizes." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Order on WhatsApp</a>
+          <a class="btn btn-line" href="tel:+919199637578"><svg><use href="#i-call"/></svg>Call 91996 37578</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <svg class="tee" viewBox="0 0 200 190" role="img" aria-label="ARIVX black oversized T-shirt with a small chest graphic">
+          <use href="#tee-shape" fill="#050505" stroke="#2a2a2a" stroke-width="1.5"/>
+          <circle cx="132" cy="70" r="9" fill="#c2371a"/>
+          <circle cx="132" cy="70" r="9" fill="none" stroke="#e86a2a" stroke-width="1"/>
+          <path d="M128 76 q4 -12 8 -2z" fill="#050505"/>
+        </svg>
+        <div class="tag">ARIVX · DROP 01</div>
+      </div>
+    </div>
+    <div class="tape-band"><svg class="tape" aria-hidden="true"><use href="#tape-motif"/></svg></div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<section class="trust" aria-label="Why ARIVX">
+  <div class="wrap trust-grid">
+    <div class="trust-item"><b>₹399</b><span>Starting price</span></div>
+    <div class="trust-item"><b>5</b><span>Designs at launch</span></div>
+    <div class="trust-item"><b>All India</b><span>Delivery</span></div>
+    <div class="trust-item"><b>COD</b><span>Or pay online</span></div>
+  </div>
+</section>
+
+<!-- SHOP -->
+<section id="shop">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">The Collection</div>
+        <h2>Five tees. No filler.</h2>
+      </div>
+      <p>Heavy-feel oversized fits in black and white, with graphics that look like they belong in your wardrobe, not a mall rack.</p>
+    </div>
+    <div class="prod-grid">
+
+      <article class="card">
+        <div class="art"><svg viewBox="0 0 200 190" role="img" aria-label="Black oversized T-shirt"><use href="#tee-shape" fill="#0a0a0a"/><rect x="88" y="62" width="24" height="3" fill="#EDEAE4" opacity=".0"/></svg></div>
+        <div class="meta"><h3>ARIVX Black Oversized T-shirt</h3><span class="price">₹399</span></div>
+        <p>The base layer of the brand. Plain black, relaxed drop-shoulder fit, built for everyday wear.</p>
+        <a class="btn btn-fill btn-sm" href="https://wa.me/919199637578?text=Hi%20ARIVX!%20I%20want%20to%20order%20the%20Black%20Oversized%20T-shirt%20(%E2%82%B9399).%20Please%20share%20sizes%20and%20delivery%20details." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Order this tee</a>
+      </article>
+
+      <article class="card">
+        <div class="art"><svg viewBox="0 0 200 190" role="img" aria-label="White oversized T-shirt"><use href="#tee-shape" fill="#F4F2EE" stroke="#bdb9b0" stroke-width="1.5"/></svg></div>
+        <div class="meta"><h3>ARIVX White Oversized T-shirt</h3><span class="price">₹399</span></div>
+        <p>Clean white, same oversized cut. Pairs with cargos, denim or shorts without trying too hard.</p>
+        <a class="btn btn-fill btn-sm" href="https://wa.me/919199637578?text=Hi%20ARIVX!%20I%20want%20to%20order%20the%20White%20Oversized%20T-shirt%20(%E2%82%B9399).%20Please%20share%20sizes%20and%20delivery%20details." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Order this tee</a>
+      </article>
+
+      <article class="card">
+        <div class="art"><svg viewBox="0 0 200 190" role="img" aria-label="Black graphic T-shirt with a sun circle print"><use href="#tee-shape" fill="#0a0a0a"/><circle cx="100" cy="100" r="32" fill="#c2371a"/><circle cx="100" cy="100" r="32" fill="none" stroke="#e86a2a"/><path d="M82 138 q14 -34 36 -30 q10 6 6 30z" fill="#0a0a0a"/></svg></div>
+        <div class="meta"><h3>ARIVX Graphic T-shirt</h3><span class="price">₹449</span></div>
+        <p>A bold sunset-red graphic on deep black. Original artwork that stands out in a crowd.</p>
+        <a class="btn btn-fill btn-sm" href="https://wa.me/919199637578?text=Hi%20ARIVX!%20I%20want%20to%20order%20the%20Graphic%20T-shirt%20(%E2%82%B9449).%20Please%20share%20sizes%20and%20delivery%20details." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Order this tee</a>
+      </article>
+
+      <article class="card">
+        <div class="art"><svg viewBox="0 0 200 190" role="img" aria-label="Black minimal logo T-shirt"><use href="#tee-shape" fill="#0a0a0a"/><path d="M128 56 l9 24 h-5 l-4 -11 l-4 11 h-5z" fill="#EDEAE4"/></svg></div>
+        <div class="meta"><h3>ARIVX Minimal Logo T-shirt</h3><span class="price">₹449</span></div>
+        <p>Small chest mark, nothing loud. For people who like their style quiet and sharp.</p>
+        <a class="btn btn-fill btn-sm" href="https://wa.me/919199637578?text=Hi%20ARIVX!%20I%20want%20to%20order%20the%20Minimal%20Logo%20T-shirt%20(%E2%82%B9449).%20Please%20share%20sizes%20and%20delivery%20details." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Order this tee</a>
+      </article>
+
+      <article class="card">
+        <div class="art"><svg viewBox="0 0 200 190" role="img" aria-label="Black typography T-shirt reading Evolve or Repeat"><use href="#tee-shape" fill="#050505" stroke="#2f2f2f"/><g fill="#F4F2EE" font-family="DM Serif Display,serif" text-anchor="middle"><text x="100" y="78" font-size="26">EVOLVE</text><text x="100" y="104" font-size="20" font-style="italic" fill="#c2371a">or</text><text x="100" y="132" font-size="26">REPEAT</text></g></svg></div>
+        <div class="meta"><h3>ARIVX Typography T-shirt</h3><span class="price">₹599</span></div>
+        <p>Big statement type across the back. Our loudest piece, and the one people ask about.</p>
+        <a class="btn btn-line btn-sm" href="https://wa.me/919199637578?text=Hi%20ARIVX!%20I%20want%20to%20order%20the%20Typography%20T-shirt%20(%E2%82%B9599).%20Please%20share%20sizes%20and%20delivery%20details." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Order this tee</a>
+      </article>
+    </div>
+    <div class="perks">
+      <span>All-India Shipping</span><span>Online Payment</span><span>Cash on Delivery</span>
+    </div>
+  </div>
+</section>
+
+<!-- LAYOUT-BREAKING BAND -->
+<section class="breaker on-dark" aria-label="Brand statement">
+  <div class="wrap"><div class="big" aria-hidden="true">EVOLVE <b>OR</b> REPEAT</div></div>
+  <div class="wrap row">
+    <p>Dark luxury, minimal lines, original graphics. ARIVX is built on one idea: your clothes should say who you are before you do.</p>
+    <a class="btn btn-fill" href="https://wa.me/919199637578?text=Hi%20ARIVX!%20I%20love%20the%20brand%20vibe.%20Which%20T-shirt%20would%20you%20recommend%20for%20me%3F" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Ask us what suits you</a>
+  </div>
+  <div class="wrap" style="padding-bottom:40px"><svg class="tape" aria-hidden="true"><use href="#tape-motif"/></svg></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap about-grid">
+    <div class="about-side">
+      <div class="avatar" aria-hidden="true">AA</div>
+      <small>Founder</small>
+      <h3>Arib Ahmad</h3>
+      <p style="color:var(--ash);margin-top:6px">Started ARIVX in 2026</p>
+    </div>
+    <div class="about-copy">
+      <div class="eyebrow">Our Story</div>
+      <h2 style="margin-bottom:28px">Built for people who dress with intent.</h2>
+      <p>I started ARIVX in 2026 because good streetwear in India was either too expensive or too plain. I wanted oversized fits, dark colours and real graphics without a luxury-brand price tag.</p>
+      <p>Every design is chosen with one question: would I wear this every week? If the answer is no, it does not make the drop. That is why we launched with just five tees.</p>
+      <p>ARIVX is young and independent, and I answer your WhatsApp messages myself. Tell me what you need and I will help you pick.</p>
+      <ul class="diff">
+        <li>Original graphics, not recycled print-shop templates</li>
+        <li>Oversized, relaxed fit with a drop shoulder</li>
+        <li>Honest pricing, from ₹399 to ₹599</li>
+        <li>Cash on Delivery or online payment</li>
+        <li>All-India shipping, wherever you live</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" style="background:var(--bone)">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow">Lookbook</div><h2>The ARIVX look</h2></div>
+      <p>Prints, fits and details from the first drop.</p>
+    </div>
+    <div class="gal">
+      <div class="g g1">
+        <img src="https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=800&auto=format&fit=crop" alt="Oversized black tee styled for the street" loading="lazy" onerror="this.style.display='none'">
+        <span class="cap">Everyday fit</span>
+      </div>
+      <div class="g g2">
+        <svg viewBox="0 0 200 190" role="img" aria-label="Evolve or Repeat typography print"><use href="#tee-shape" fill="#050505" stroke="#2f2f2f"/><g fill="#F4F2EE" font-family="DM Serif Display,serif" text-anchor="middle"><text x="100" y="78" font-size="26">EVOLVE</text><text x="100" y="104" font-size="20" font-style="italic" fill="#c2371a">or</text><text x="100" y="132" font-size="26">REPEAT</text></g></svg>
+        <span class="cap">Typography</span>
+      </div>
+      <div class="g g3">
+        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&auto=format&fit=crop" alt="Plain white oversized tee" loading="lazy" onerror="this.style.display='none'">
+        <span class="cap">White tee</span>
+      </div>
+      <div class="g g4 paper">
+        <svg viewBox="0 0 60 120" aria-hidden="true" style="width:60%"><path d="M30 10 l16 70 h-9 l-7 -30 l-7 30 h-9z" fill="#141414"/></svg>
+      </div>
+      <div class="g g5">
+        <svg viewBox="0 0 200 190" role="img" aria-label="Sunset red graphic print"><use href="#tee-shape" fill="#0a0a0a" stroke="#2f2f2f"/><circle cx="100" cy="100" r="36" fill="#c2371a"/><path d="M80 142 q16 -40 40 -34 q12 8 8 34z" fill="#0a0a0a"/></svg>
+        <span class="cap">Sunset graphic</span>
+      </div>
+      <div class="g g6 paper" style="color:var(--ink)">
+        <span style="font-family:var(--serif);font-size:30px;text-align:center;line-height:1.1">Two souls,<br>one spirit.</span>
+      </div>
+      <div class="g g7">
+        <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&auto=format&fit=crop" alt="Folded tees close-up" loading="lazy" onerror="this.style.display='none'">
+        <span class="cap">Fabric feel</span>
+      </div>
+      <div class="g g8 paper" style="padding:0 16px"><svg class="tape" style="color:var(--ink)" aria-hidden="true"><use href="#tape-motif"/></svg></div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews" id="reviews">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow">Reviews</div><h2>Be our first review.</h2></div>
+      <p>ARIVX launched in 2026, so we have no customer reviews to show yet. Here is what you can count on.</p>
+    </div>
+    <div class="rev-grid">
+      <div class="rev">
+        <div class="stars" aria-hidden="true"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        <h3>Wear it first. Tell us honestly.</h3>
+        <p>Order your tee, wear it, then send us your real feedback on WhatsApp. The first honest reviews will be featured here.</p>
+        <a class="btn btn-fill btn-sm" href="https://wa.me/919199637578?text=Hi%20ARIVX!%20I%20would%20like%20to%20share%20feedback%20on%20my%20order." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Share feedback</a>
+      </div>
+      <div class="rev">
+        <h3>Pay your way</h3>
+        <p>Pay online, or choose Cash on Delivery and pay when the parcel reaches you.</p>
+      </div>
+      <div class="rev">
+        <h3>A real person replies</h3>
+        <p>Sizing doubts, delivery questions, order status: message the founder directly on WhatsApp or call.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="wrap price-grid">
+    <div>
+      <div class="eyebrow">Pricing</div>
+      <h2 style="margin-bottom:28px">Simple, upfront prices.</h2>
+      <ul class="plist">
+        <li>Black Oversized T-shirt<span class="dots"></span><b>₹399</b></li>
+        <li>White Oversized T-shirt<span class="dots"></span><b>₹399</b></li>
+        <li>Graphic T-shirt<span class="dots"></span><b>₹449</b></li>
+        <li>Minimal Logo T-shirt<span class="dots"></span><b>₹449</b></li>
+        <li>Typography T-shirt<span class="dots"></span><b>₹599</b></li>
+      </ul>
+    </div>
+    <div class="notes on-dark">
+      <h3>How ordering works</h3>
+      <ul>
+        <li>Message us the design you want on WhatsApp</li>
+        <li>We confirm size and delivery address</li>
+        <li>Pay online, or choose Cash on Delivery</li>
+        <li>We ship across India</li>
+      </ul>
+      <a class="btn btn-fill" href="https://wa.me/919199637578?text=Hi%20ARIVX!%20I%20want%20to%20place%20an%20order.%20Please%20guide%20me%20through%20the%20steps." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Start my order</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" style="background:var(--bone)">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow">Contact</div><h2>Talk to ARIVX.</h2></div>
+      <p>We are an online store serving all of India. Message or call during store hours.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="map-wrap">
+        <iframe class="map" title="Map showing India, ARIVX delivers across the country" src="https://maps.google.com/maps?q=India&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div>
+        <h3>Store hours</h3>
+        <table class="hours">
+          <tr><td>Monday – Saturday</td><td>10:00 AM – 8:00 PM</td></tr>
+          <tr><td>Sunday</td><td>Closed</td></tr>
+        </table>
+        <div class="methods">
+          <a class="btn btn-fill" href="https://wa.me/919199637578?text=Hi%20ARIVX!%20I%20have%20a%20question%20about%20your%20T-shirts." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp: 91996 37578</a>
+          <a class="btn btn-line" href="tel:+919199637578"><svg><use href="#i-call"/></svg>Call: 91996 37578</a>
+          <a class="btn btn-line" href="mailto:aribnooman@icloud.com?subject=ARIVX%20enquiry">Email: aribnooman@icloud.com</a>
+          <a class="btn btn-line" href="https://www.instagram.com/menswear.4/" target="_blank" rel="noopener">Instagram: @menswear.4</a>
+          <small>Online business, India. All-India delivery. Hours are approximate.</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="#top">ARI<span>V</span>X</a>
+        <p>Wear Your Identity. Premium streetwear for everyone.</p>
+      </div>
+      <div>
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#about">Our Story</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://www.instagram.com/menswear.4/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+      <div>
+        <a class="big-wa" href="https://wa.me/919199637578?text=Hi%20ARIVX!%20I%20want%20to%20order%20a%20T-shirt." target="_blank" rel="noopener">Order on WhatsApp <svg><use href="#i-wa"/></svg></a>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© <span id="yr">2026</span> ARIVX. All rights reserved.</span>
+      <span class="credit">built with ❤️ by 21.coders</span>
+    </div>
+  </div>
+</footer>
+
+<div class="sticky" aria-label="Quick contact">
+  <a class="s-call" href="tel:+919199637578"><svg><use href="#i-call"/></svg>Call</a>
+  <a class="s-wa" href="https://wa.me/919199637578?text=Hi%20ARIVX!%20I%20want%20to%20order%20a%20T-shirt.%20Please%20share%20the%20available%20designs." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp</a>
+</div>
+
+<script>
+(function(){
+  var y=document.getElementById('yr'); if(y) y.textContent=new Date().getFullYear();
+  var b=document.getElementById('burger'), n=document.getElementById('nav');
+  b.addEventListener('click',function(){
+    var o=n.classList.toggle('open'); b.setAttribute('aria-expanded',o);
+  });
+  n.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){n.classList.remove('open');b.setAttribute('aria-expanded','false');});});
+})();
+</script>
+</body>
+</html>
